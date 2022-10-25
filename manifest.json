@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Infroliprof",
+    "description": "Extract Contact information from linkdin Ids ",
+    "version": "1.0.0",
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    }
+}
